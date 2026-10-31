@@ -4,6 +4,14 @@ Atendimento com dois perfis: cliente abre e acompanha as próprias solicitaçõe
 
 ![Aplicação em funcionamento](docs/chamado-desktop.png)
 
+## Demonstração no GitHub Pages
+
+[Abrir demonstração interativa](https://mateusmarques2026.github.io/fila-chamados/)
+
+A demonstração usa as mesmas interfaces do projeto com um adaptador exclusivo em demo/. Os dados são fictícios, ficam no armazenamento local do navegador e podem ser reiniciados pelo botão no topo. A troca de visão simula os papéis para apresentação; não é autenticação nem controle de acesso real. Não use dados pessoais nesta demonstração. A versão completa com servidor, identidade e SQL permanece no restante do projeto.
+
+Para executar: npm ci, npm run demo:build e npm run demo:dev. O comando demo:build gera dist-demo/; o workflow pages.yml publica essa pasta. Em Settings → Pages, a origem é GitHub Actions.
+
 ## Funcionalidades
 
 - Abrir chamado com título, descrição, categoria e prioridade.
